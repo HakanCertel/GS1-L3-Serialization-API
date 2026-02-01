@@ -1,0 +1,284 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD04096E-E652-420C-A53E-4E78A239864D}|Core\\GS1L3.Domain\\GS1L3.Domain.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\core\\gs1l3.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD04096E-E652-420C-A53E-4E78A239864D}|Core\\GS1L3.Domain\\GS1L3.Domain.csproj|solutionrelative:core\\gs1l3.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{350746EA-9586-4186-9FFB-F759C7B96A3A}|Presentation\\GS1L3.API\\GS1L3.API.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\presentation\\gs1l3.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{350746EA-9586-4186-9FFB-F759C7B96A3A}|Presentation\\GS1L3.API\\GS1L3.API.csproj|solutionrelative:presentation\\gs1l3.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{350746EA-9586-4186-9FFB-F759C7B96A3A}|Presentation\\GS1L3.API\\GS1L3.API.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\presentation\\gs1l3.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{350746EA-9586-4186-9FFB-F759C7B96A3A}|Presentation\\GS1L3.API\\GS1L3.API.csproj|solutionrelative:presentation\\gs1l3.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{350746EA-9586-4186-9FFB-F759C7B96A3A}|Presentation\\GS1L3.API\\GS1L3.API.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\presentation\\gs1l3.api\\controllers\\workorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{350746EA-9586-4186-9FFB-F759C7B96A3A}|Presentation\\GS1L3.API\\GS1L3.API.csproj|solutionrelative:presentation\\gs1l3.api\\controllers\\workorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD04096E-E652-420C-A53E-4E78A239864D}|Core\\GS1L3.Domain\\GS1L3.Domain.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\core\\gs1l3.domain\\enums\\workorderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD04096E-E652-420C-A53E-4E78A239864D}|Core\\GS1L3.Domain\\GS1L3.Domain.csproj|solutionrelative:core\\gs1l3.domain\\enums\\workorderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD570792-02E4-439F-A10E-61B5168D37E6}|Infrastructure\\GS1L3.Persistence\\GS1L3.Persistence.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\infrastructure\\gs1l3.persistence\\services\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD570792-02E4-439F-A10E-61B5168D37E6}|Infrastructure\\GS1L3.Persistence\\GS1L3.Persistence.csproj|solutionrelative:infrastructure\\gs1l3.persistence\\services\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987604CF-D948-4CE1-9622-544D8028FED4}|Core\\GS1L3.Application\\GS1L3.Application.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\core\\gs1l3.application\\dtos\\workorderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987604CF-D948-4CE1-9622-544D8028FED4}|Core\\GS1L3.Application\\GS1L3.Application.csproj|solutionrelative:core\\gs1l3.application\\dtos\\workorderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{350746EA-9586-4186-9FFB-F759C7B96A3A}|Presentation\\GS1L3.API\\GS1L3.API.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\presentation\\gs1l3.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{350746EA-9586-4186-9FFB-F759C7B96A3A}|Presentation\\GS1L3.API\\GS1L3.API.csproj|solutionrelative:presentation\\gs1l3.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD570792-02E4-439F-A10E-61B5168D37E6}|Infrastructure\\GS1L3.Persistence\\GS1L3.Persistence.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\infrastructure\\gs1l3.persistence\\services\\gs1service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD570792-02E4-439F-A10E-61B5168D37E6}|Infrastructure\\GS1L3.Persistence\\GS1L3.Persistence.csproj|solutionrelative:infrastructure\\gs1l3.persistence\\services\\gs1service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987604CF-D948-4CE1-9622-544D8028FED4}|Core\\GS1L3.Application\\GS1L3.Application.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\core\\gs1l3.application\\dtos\\workorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987604CF-D948-4CE1-9622-544D8028FED4}|Core\\GS1L3.Application\\GS1L3.Application.csproj|solutionrelative:core\\gs1l3.application\\dtos\\workorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F3BA65-45A0-4791-BF24-1A7838BBE5EF}|Infrastructure\\GS1L3.Insfrastructure\\GS1L3.Insfrastructure.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\infrastructure\\gs1l3.insfrastructure\\functions\\enumfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F3BA65-45A0-4791-BF24-1A7838BBE5EF}|Infrastructure\\GS1L3.Insfrastructure\\GS1L3.Insfrastructure.csproj|solutionrelative:infrastructure\\gs1l3.insfrastructure\\functions\\enumfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{350746EA-9586-4186-9FFB-F759C7B96A3A}|Presentation\\GS1L3.API\\GS1L3.API.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\presentation\\gs1l3.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{350746EA-9586-4186-9FFB-F759C7B96A3A}|Presentation\\GS1L3.API\\GS1L3.API.csproj|solutionrelative:presentation\\gs1l3.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD570792-02E4-439F-A10E-61B5168D37E6}|Infrastructure\\GS1L3.Persistence\\GS1L3.Persistence.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\infrastructure\\gs1l3.persistence\\context\\gs1l3dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD570792-02E4-439F-A10E-61B5168D37E6}|Infrastructure\\GS1L3.Persistence\\GS1L3.Persistence.csproj|solutionrelative:infrastructure\\gs1l3.persistence\\context\\gs1l3dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987604CF-D948-4CE1-9622-544D8028FED4}|Core\\GS1L3.Application\\GS1L3.Application.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\core\\gs1l3.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987604CF-D948-4CE1-9622-544D8028FED4}|Core\\GS1L3.Application\\GS1L3.Application.csproj|solutionrelative:core\\gs1l3.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987604CF-D948-4CE1-9622-544D8028FED4}|Core\\GS1L3.Application\\GS1L3.Application.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\core\\gs1l3.application\\dtos\\ssccdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987604CF-D948-4CE1-9622-544D8028FED4}|Core\\GS1L3.Application\\GS1L3.Application.csproj|solutionrelative:core\\gs1l3.application\\dtos\\ssccdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987604CF-D948-4CE1-9622-544D8028FED4}|Core\\GS1L3.Application\\GS1L3.Application.csproj|c:\\users\\user\\desktop\\gs1l3api\\gs1l3api\\core\\gs1l3.application\\services\\igs1service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987604CF-D948-4CE1-9622-544D8028FED4}|Core\\GS1L3.Application\\GS1L3.Application.csproj|solutionrelative:core\\gs1l3.application\\services\\igs1service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "Core\\GS1L3.Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Domain\\Entities\\Customer.cs*",
+              "RelativeToolTip": "Core\\GS1L3.Domain\\Entities\\Customer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T17:49:16.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Presentation\\GS1L3.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\GS1L3.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Presentation\\GS1L3.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\GS1L3.API\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T17:38:01.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WorkOrderDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Application\\Dtos\\WorkOrderDetailDto.cs",
+              "RelativeDocumentMoniker": "Core\\GS1L3.Application\\Dtos\\WorkOrderDetailDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Application\\Dtos\\WorkOrderDetailDto.cs",
+              "RelativeToolTip": "Core\\GS1L3.Application\\Dtos\\WorkOrderDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T17:12:20.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkOrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Presentation\\GS1L3.API\\Controllers\\WorkOrdersController.cs",
+              "RelativeDocumentMoniker": "Presentation\\GS1L3.API\\Controllers\\WorkOrdersController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Presentation\\GS1L3.API\\Controllers\\WorkOrdersController.cs",
+              "RelativeToolTip": "Presentation\\GS1L3.API\\Controllers\\WorkOrdersController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAnwFQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T16:46:42.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Presentation\\GS1L3.API\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Presentation\\GS1L3.API\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Presentation\\GS1L3.API\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Presentation\\GS1L3.API\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T04:08:29.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorkOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Infrastructure\\GS1L3.Persistence\\Services\\WorkOrderService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\GS1L3.Persistence\\Services\\WorkOrderService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Infrastructure\\GS1L3.Persistence\\Services\\WorkOrderService.cs",
+              "RelativeToolTip": "Infrastructure\\GS1L3.Persistence\\Services\\WorkOrderService.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAEwHsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T16:20:21.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Presentation\\GS1L3.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\GS1L3.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Presentation\\GS1L3.API\\appsettings.json",
+              "RelativeToolTip": "Presentation\\GS1L3.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-31T14:58:54.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorkOrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Domain\\Enums\\WorkOrderStatus.cs",
+              "RelativeDocumentMoniker": "Core\\GS1L3.Domain\\Enums\\WorkOrderStatus.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Domain\\Enums\\WorkOrderStatus.cs",
+              "RelativeToolTip": "Core\\GS1L3.Domain\\Enums\\WorkOrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T17:23:33.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Gs1Service.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Infrastructure\\GS1L3.Persistence\\Services\\Gs1Service.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\GS1L3.Persistence\\Services\\Gs1Service.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Infrastructure\\GS1L3.Persistence\\Services\\Gs1Service.cs",
+              "RelativeToolTip": "Infrastructure\\GS1L3.Persistence\\Services\\Gs1Service.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T16:14:40.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Presentation\\GS1L3.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Presentation\\GS1L3.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Presentation\\GS1L3.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Presentation\\GS1L3.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T04:07:08.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WorkOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Application\\Dtos\\WorkOrderDto.cs",
+              "RelativeDocumentMoniker": "Core\\GS1L3.Application\\Dtos\\WorkOrderDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Application\\Dtos\\WorkOrderDto.cs",
+              "RelativeToolTip": "Core\\GS1L3.Application\\Dtos\\WorkOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T16:49:46.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnumFunction.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Infrastructure\\GS1L3.Insfrastructure\\Functions\\EnumFunction.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\GS1L3.Insfrastructure\\Functions\\EnumFunction.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Infrastructure\\GS1L3.Insfrastructure\\Functions\\EnumFunction.cs",
+              "RelativeToolTip": "Infrastructure\\GS1L3.Insfrastructure\\Functions\\EnumFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T10:26:12.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GS1L3DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Infrastructure\\GS1L3.Persistence\\Context\\GS1L3DbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\GS1L3.Persistence\\Context\\GS1L3DbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Infrastructure\\GS1L3.Persistence\\Context\\GS1L3DbContext.cs",
+              "RelativeToolTip": "Infrastructure\\GS1L3.Persistence\\Context\\GS1L3DbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T15:48:31.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Application\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Core\\GS1L3.Application\\Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Application\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "Core\\GS1L3.Application\\Dtos\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T04:55:50.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SsccDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Application\\Dtos\\SsccDto.cs",
+              "RelativeDocumentMoniker": "Core\\GS1L3.Application\\Dtos\\SsccDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Application\\Dtos\\SsccDto.cs",
+              "RelativeToolTip": "Core\\GS1L3.Application\\Dtos\\SsccDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T16:40:28.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IGs1Service.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Application\\Services\\IGs1Service.cs",
+              "RelativeDocumentMoniker": "Core\\GS1L3.Application\\Services\\IGs1Service.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GS1L3API\\GS1L3API\\Core\\GS1L3.Application\\Services\\IGs1Service.cs",
+              "RelativeToolTip": "Core\\GS1L3.Application\\Services\\IGs1Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T16:13:04.105Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

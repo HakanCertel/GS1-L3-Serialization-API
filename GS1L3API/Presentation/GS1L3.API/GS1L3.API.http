@@ -1,0 +1,6 @@
+@GS1L3.API_HostAddress = http://localhost:5172
+
+GET {{GS1L3.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
