@@ -114,8 +114,9 @@ Bu proje **.NET Core Web API** ile geliştirilmiş olup **Serilog** ile log mima
         }
       </h4>
       <p>Dönen Sonuç aşağıdaki gibidir. Burada dönen sonuç üretilen iş emri ile ilgili istenilen rapor sonucunu döndermektedir. Bu sonucu bir sonraki endpoint' i uygulayarakda alabilirsiniz</p>
-     
-     
+           <img width="601" height="408" alt="image" src="https://github.com/user-attachments/assets/e70d41d3-8eea-4e91-85bd-ab430c84e26a" />
+          <img width="426" height="366" alt="image" src="https://github.com/user-attachments/assets/c35a8683-0626-48a7-9994-afbf15ecdb8f" />
+              <img width="319" height="246" alt="image" src="https://github.com/user-attachments/assets/7b1c17e1-e687-4891-a098-100a13d06d7b" />
    </td>
   </tr>
 </table>
@@ -124,7 +125,9 @@ Bu proje **.NET Core Web API** ile geliştirilmiş olup **Serilog** ile log mima
     <td align="center">
       <h3>Rapor Sayfası</h3>
       <p> GET /api/WorkOrders/{id}/full-report endpoint' inde '{id}' yerine işleme alınmış yani üretimi başlatırlmış bir iş emrinin ID' si yazılırsa bir önceki aşamada yapmış olduğumuz üretime ilişkin olarak bu iş emrine bağlı nekadar üretim yapıldığı, durumu,kalan miktarı ve üretilen herbir ürüne ait GS1 kodu,hesaplanmış herbir koli ve palet sayısında SSCC kodu ve ilişkisellikleri raporlanmaktadır <h4> Oluşan Rapor bir önceki endpoint' in döndüğü sonuçla aynı olacaktır</h4></p>
-      <img width="739" height="218" alt="image" src="https://github.com/user-attachments/assets/c81e58ed-542d-4788-b8df-da507e3c0924" />
+           <img width="601" height="408" alt="image" src="https://github.com/user-attachments/assets/e70d41d3-8eea-4e91-85bd-ab430c84e26a" />
+          <img width="426" height="366" alt="image" src="https://github.com/user-attachments/assets/c35a8683-0626-48a7-9994-afbf15ecdb8f" />
+              <img width="319" height="246" alt="image" src="https://github.com/user-attachments/assets/7b1c17e1-e687-4891-a098-100a13d06d7b" />
     </td>
   </tr>
 </table>
