@@ -9,8 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddPersistenceServices();
-builder.Services.AddDbContext<GS1L3DbContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("MssqlConnectionString")));
+
+//builder.Services.AddDbContext<GS1L3DbContext>(options =>
+//            options.UseSqlServer(builder.Configuration.GetConnectionString("MssqlConnectionString")));
 
 Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)

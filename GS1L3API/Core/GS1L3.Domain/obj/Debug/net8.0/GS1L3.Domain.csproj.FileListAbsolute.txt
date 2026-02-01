@@ -9,3 +9,15 @@ C:\Users\User\Desktop\GS1L3API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\GS1L3
 C:\Users\User\Desktop\GS1L3API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\refint\GS1L3.Domain.dll
 C:\Users\User\Desktop\GS1L3API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\GS1L3.Domain.pdb
 C:\Users\User\Desktop\GS1L3API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\ref\GS1L3.Domain.dll
+C:\Users\User\Documents\GitHub\GS1-L3-Serialization-API\GS1L3API\Core\GS1L3.Domain\bin\Debug\net8.0\GS1L3.Domain.deps.json
+C:\Users\User\Documents\GitHub\GS1-L3-Serialization-API\GS1L3API\Core\GS1L3.Domain\bin\Debug\net8.0\GS1L3.Domain.dll
+C:\Users\User\Documents\GitHub\GS1-L3-Serialization-API\GS1L3API\Core\GS1L3.Domain\bin\Debug\net8.0\GS1L3.Domain.pdb
+C:\Users\User\Documents\GitHub\GS1-L3-Serialization-API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\GS1L3.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\GS1-L3-Serialization-API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\GS1L3.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\GS1-L3-Serialization-API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\GS1L3.Domain.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\GS1-L3-Serialization-API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\GS1L3.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\GS1-L3-Serialization-API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\GS1L3.Domain.sourcelink.json
+C:\Users\User\Documents\GitHub\GS1-L3-Serialization-API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\GS1L3.Domain.dll
+C:\Users\User\Documents\GitHub\GS1-L3-Serialization-API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\refint\GS1L3.Domain.dll
+C:\Users\User\Documents\GitHub\GS1-L3-Serialization-API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\GS1L3.Domain.pdb
+C:\Users\User\Documents\GitHub\GS1-L3-Serialization-API\GS1L3API\Core\GS1L3.Domain\obj\Debug\net8.0\ref\GS1L3.Domain.dll
