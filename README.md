@@ -16,7 +16,7 @@ Bu proje **.NET Core Web API** ile geliştirilmiş olup **Serilog** ile log mima
   <tr>
     <td align="center">
       <h3>Veritabanı Bağlantı Ayarı</h3>
-      <p>Projeye ait appsettings.json dosyasında MssqlConnectionString anahtarına kendi bağlandı cümlenizi yazın<>
+      <p>Projeye ait appsettings.json dosyasında DefaultConnectionString anahtarına kendi bağlandı cümlenizi yazın<>
       <img width="739" height="218" alt="image" src="https://github.com/user-attachments/assets/c81e58ed-542d-4788-b8df-da507e3c0924" />
     </td>
     <td align="center">
