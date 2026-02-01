@@ -96,15 +96,17 @@ Bu proje **.NET Core Web API** ile geliştirilmiş olup **Serilog** ile log mima
     </td>
   </tr>
 </table>
+
 <table>
   <tr>
     <td align="center">
       <h3>Üretim Gerçekleştirme</h3>
       <p>
         POST /api/workOrders/produceWorkOrder endpoint request body'sine aşağıdaki script'i yazın üretilecek miktarı ve iş emri id sini girerek çalıştrın. Bu işlemlem sonucunda üretilecek her bir ürün için GS1 barkod numarası oluşacak ,varsayılan olarak koli içi adet 10 ve her bir palet 10 koli olacak şekil belirlenmiş olup üretilen her 10 adet ürün için bir koli SSCC kodu ve her 10 koli için bir palet SSCC kodu üretecektir.
-        
       </p>
-      <p> Gerçek hayat uygulamasında bu entpoint 4 aşamaya bölünmüş olacak. Birinci aşama ürün üretilecek sensör ürünü görecek ve GS1 kodu üretilecek. İkinc aşamada yazıcı barkodu ürün üstüne basar. Üçüncü aşama üretilen GS1 kodu ile yazıcının yazdığı barkodun eşleşmesinikontrol edecek olan endpoint olacaktır. Dördüncü aşama onaylanan her ürün barkodu okutularak bir koliye konulacak ve koli içi adet tamamlandığında okutulan ürünler için bir SSCC kodu üretecek endpoint oluşturulacak. Son aşamada ise koliler iin basılan SSCC kodları okutularak palet oluşturulacak ve palet dolduğunda okutulan bütün koli SSCC ' lerine bağlı bir Parent SSCC yani palet etiketi basılarak üretim süreci tamamlanacaktır</p>
+      <p> 
+      Gerçek hayat uygulamasında bu entpoint 4 aşamaya bölünmüş olacak. Birinci aşama ürün üretilecek sensör ürünü görecek ve GS1 kodu üretilecek. İkinc aşamada yazıcı barkodu ürün üstüne basar. Üçüncü aşama üretilen GS1 kodu ile yazıcının yazdığı barkodun eşleşmesinikontrol edecek olan endpoint olacaktır. Dördüncü aşama onaylanan her ürün barkodu okutularak bir koliye konulacak ve koli içi adet tamamlandığında okutulan ürünler için bir SSCC kodu üretecek endpoint oluşturulacak. Son aşamada ise koliler iin basılan SSCC kodları okutularak palet oluşturulacak ve palet dolduğunda okutulan bütün koli SSCC ' lerine bağlı bir Parent SSCC yani palet etiketi basılarak üretim süreci tamamlanacaktır
+      </p>
       <h4>
         {
             "ProducedQuantity": 100,
@@ -112,12 +114,9 @@ Bu proje **.NET Core Web API** ile geliştirilmiş olup **Serilog** ile log mima
         }
       </h4>
       <p>Dönen Sonuç aşağıdaki gibidir. Burada dönen sonuç üretilen iş emri ile ilgili istenilen rapor sonucunu döndermektedir. Bu sonucu bir sonraki endpoint' i uygulayarakda alabilirsiniz</p>
-     <img width="680" height="359" alt="image" src="https://github.com/user-attachments/assets/879808b9-42f9-4cb0-a25f-1c2f433887bb" />
-      <img width="427" height="425" alt="image" src="https://github.com/user-attachments/assets/0deb321b-1684-47a0-b248-b23966dc5d6a" />
-      <img width="332" height="235" alt="image" src="https://github.com/user-attachments/assets/63597124-744d-409d-8ca5-461291416c93" />
-
-
-    </td>
+     
+     
+   </td>
   </tr>
 </table>
 <table>
