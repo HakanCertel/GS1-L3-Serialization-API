@@ -1,14 +1,15 @@
 # GS1-L3-Serialization-API
 ## 🌟 Genel Bakış
 
-**Proje**, Müşteri , Ürün ve İş Emri kayıtlarının oluşturulduğu ve .
+**Proje**, Müşteri , Ürün ve İş Emri kayıtlarının oluşturulduğu ve üretim işleminin gerçekleştirilerek  GS1 serilazasyon ve agregasyon sürecin
+n yapılandırıldığı bir projedir.
 
 Bu proje **.NET Core Web API** ile geliştirilmiş olup **Serilog** ile log mimarisi oluşturulmuştur.
+
 ## 🛠️ Teknolojiler
 
 | Kategori | Teknolojiler |
 | :--- | :--- |
-| **Frontend** | ASP.Net Core MVC|
 | **Backend** | C#/.NET 8, Asp.Net Core Web Api,MSSQL Server, Entity Framework Core, Serilog, DependencyInjection |
 
 ## 🌟 Konfigürasyon
