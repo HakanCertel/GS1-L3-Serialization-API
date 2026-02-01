@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GS1L3.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04ce9dc7b30d766fb81f92e2151b7dc0965882ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+833ca505233cc06b22467e8da773ffedf890bf08")]
 [assembly: System.Reflection.AssemblyProductAttribute("GS1L3.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GS1L3.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

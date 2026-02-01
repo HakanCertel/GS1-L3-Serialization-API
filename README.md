@@ -1,4 +1,16 @@
 # GS1-L3-Serialization-API
+## 🌟 Genel Bakış
+
+**Proje**, Müşteri , Ürün ve İş Emri kayıtlarının oluşturulduğu ve .
+
+Bu proje **.NET Core Web API** ile geliştirilmiş olup **Serilog** ile log mimarisi oluşturulmuştur.
+## 🛠️ Teknolojiler
+
+| Kategori | Teknolojiler |
+| :--- | :--- |
+| **Frontend** | ASP.Net Core MVC|
+| **Backend** | C#/.NET 8, Asp.Net Core Web Api,MSSQL Server, Entity Framework Core, Serilog, DependencyInjection |
+
 ## 🌟 Konfigürasyon
 <table>
   <tr>
@@ -48,13 +60,13 @@
       <h3>Ürün Kaydı Oluşturma</h3>
       <p>
         POST /api/product endpoint request body'sine aşağıdaki script'i yazın ve çalıştrın GTIN numarası 14 karakteri geçemez. Validation mekanizması oluşturlmadığı için hata alırsınız         </p>
-      <p>
+      <h4>
         {
           "Name": "ASPIRIN",
           "GTIN": "14 haneli GTIN",
           "CustomerId": "fb77a9c5-b33b-466e-af11-08de6178ae06"
         }
-      </p>
+      </h4>
       <p>Dönen Sonuç aşağıdaki gibidir. Busonuçta iş emri oluşturmak iiçin Id kopyalamır ve workorder request body' sinde productId alanına yağıştırılır</p>
       <img width="454" height="221" alt="image" src="https://github.com/user-attachments/assets/e782120d-6dc4-4eff-bff1-6bf1d2df0e3f" />
     </td>
@@ -67,7 +79,7 @@
       <p>
         POST /api/workOrders endpoint request body'sine aşağıdaki script'i yazın ve çalıştrın. Sürecin bu aşamasında iş emri ile birlikte hedef miktar kadar seri numarası üretilip veri tabanına kaydedilecekti. Yani mevcut örneğimiz için 100 adet seri numarası üretilecektir. Gerçek hayatta senaryo muhtemelen seri numaraları veritabanında daha önceden tanımlanmış ve üretim aşamasında her bir ürün için bir seri numarası kullanılacak ve kullanılacak bu seri numarası pasife alınacaktır, birkez daha kullanılmaması için.
       </p>
-      <p>
+      <h4>
         {
             "ProductId":"84df8851-05aa-4194-6936-08de617b8e56",
             "LotNo":"BYRASP30012026",
@@ -76,7 +88,7 @@
             "Status":"Active",
             "SerialStartValue":"BYR"
         }
-      </p>
+      </h4>
       <p>Dönen Sonuç aşağıdaki gibidir. Birsonraki aşama iş emrini üretme aşamasıdır o yüzden dönen sunucun Id si kopyalanmalı ve üretim isteğinin body sindeki workorderId alanına yapıştırılmalıdır</p>
       <img width="547" height="116" alt="image" src="https://github.com/user-attachments/assets/bd6a983b-7590-48f6-a020-a8d1b0ed2412" />
 
@@ -88,20 +100,31 @@
     <td align="center">
       <h3>Üretim Gerçekleştirme</h3>
       <p>
-        POST /api/workOrders/produceWorkOrder endpoint request body'sine aşağıdaki script'i yazın üretilecek miktarı ve iş emri id sini girerek çalıştrın. Bu işlemlem sonucunda üretilecek her bir ürün için GS1 barkod numarası oluşacak ,varsayılan olarak koli içi adet 10 ve her bir palet 10 koli olacak şekil belirlenmiş olup üretilen her 10 adet ürün için bir koli SSCC kodu ve her 10 koli için bir palet SSCC kodu üretecektir
+        POST /api/workOrders/produceWorkOrder endpoint request body'sine aşağıdaki script'i yazın üretilecek miktarı ve iş emri id sini girerek çalıştrın. Bu işlemlem sonucunda üretilecek her bir ürün için GS1 barkod numarası oluşacak ,varsayılan olarak koli içi adet 10 ve her bir palet 10 koli olacak şekil belirlenmiş olup üretilen her 10 adet ürün için bir koli SSCC kodu ve her 10 koli için bir palet SSCC kodu üretecektir.
+        
       </p>
-      <p>
+      <p> Gerçek hayat uygulamasında bu entpoint 4 aşamaya bölünmüş olacak. Birinci aşama ürün üretilecek sensör ürünü görecek ve GS1 kodu üretilecek. İkinc aşamada yazıcı barkodu ürün üstüne basar. Üçüncü aşama üretilen GS1 kodu ile yazıcının yazdığı barkodun eşleşmesinikontrol edecek olan endpoint olacaktır. Dördüncü aşama onaylanan her ürün barkodu okutularak bir koliye konulacak ve koli içi adet tamamlandığında okutulan ürünler için bir SSCC kodu üretecek endpoint oluşturulacak. Son aşamada ise koliler iin basılan SSCC kodları okutularak palet oluşturulacak ve palet dolduğunda okutulan bütün koli SSCC ' lerine bağlı bir Parent SSCC yani palet etiketi basılarak üretim süreci tamamlanacaktır</p>
+      <h4>
         {
             "ProducedQuantity": 100,
             "WorkOrderId": "49897c45-56e9-45b9-2581-08de617d77bd"
         }
-      </p>
-      <p>Dönen Sonuç aşağıdaki gibidir.</p>
+      </h4>
+      <p>Dönen Sonuç aşağıdaki gibidir. Burada dönen sonuç üretilen iş emri ile ilgili istenilen rapor sonucunu döndermektedir. Bu sonucu bir sonraki endpoint' i uygulayarakda alabilirsiniz</p>
      <img width="680" height="359" alt="image" src="https://github.com/user-attachments/assets/879808b9-42f9-4cb0-a25f-1c2f433887bb" />
       <img width="427" height="425" alt="image" src="https://github.com/user-attachments/assets/0deb321b-1684-47a0-b248-b23966dc5d6a" />
       <img width="332" height="235" alt="image" src="https://github.com/user-attachments/assets/63597124-744d-409d-8ca5-461291416c93" />
 
 
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td align="center">
+      <h3>Rapor Sayfası</h3>
+      <p> GET /api/WorkOrders/{id}/full-report endpoint' inde '{id}' yerine işleme alınmış yani üretimi başlatırlmış bir iş emrinin ID' si yazılırsa bir önceki aşamada yapmış olduğumuz üretime ilişkin olarak bu iş emrine bağlı nekadar üretim yapıldığı, durumu,kalan miktarı ve üretilen herbir ürüne ait GS1 kodu,hesaplanmış herbir koli ve palet sayısında SSCC kodu ve ilişkisellikleri raporlanmaktadır <h4> Oluşan Rapor bir önceki endpoint' in döndüğü sonuçla aynı olacaktır</h4></p>
+      <img width="739" height="218" alt="image" src="https://github.com/user-attachments/assets/c81e58ed-542d-4788-b8df-da507e3c0924" />
     </td>
   </tr>
 </table>

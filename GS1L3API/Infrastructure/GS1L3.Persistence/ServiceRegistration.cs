@@ -13,7 +13,7 @@ namespace GS1L3.Persistence
         public static void AddPersistenceServices(this IServiceCollection services)
         {
             services.AddDbContext<GS1L3DbContext>(options =>
-            options.UseSqlServer(@"Server=DESKTOP-DNL1VKI;Database=GS1L3DB_2;Trusted_Connection=True;TrustServerCertificate=True"));
+            options.UseSqlServer(Configuration.ConnectionString));
 
             services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             services.AddScoped<IGs1Service, Gs1Service>();

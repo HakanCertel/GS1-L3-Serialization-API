@@ -1,20 +1,22 @@
 using GS1L3.Persistence;
+using GS1L3.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+using Serilog.Core;
 using Serilog.Sinks.MSSqlServer;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddPersistenceServices();
 
+builder.Services.AddPersistenceServices();
 
 Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)
     .WriteTo.Console()
     .WriteTo.File("logs/log.txt", rollingInterval: RollingInterval.Day)
     .WriteTo.MSSqlServer(
-        connectionString: builder.Configuration.GetConnectionString("MssqlConnectionString"),
+        connectionString: builder.Configuration.GetConnectionString("DefaultConnection"),
         sinkOptions: new MSSqlServerSinkOptions
         {
             TableName = "Logs",
@@ -41,6 +43,7 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 
+    // XML Yorumlarýný Swagger'a dahil et (Controller üzerindeki /// yorumlarý okur)
     var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     if (File.Exists(xmlPath))
@@ -67,7 +70,7 @@ try
         app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "GS1 L3 API v1");
-        c.RoutePrefix = string.Empty; 
+        c.RoutePrefix = string.Empty; // Swagger'ýn direkt ana sayfada (localhost:5000) açýlmasýný saðlar
     });
     }
     app.UseSerilogRequestLogging();

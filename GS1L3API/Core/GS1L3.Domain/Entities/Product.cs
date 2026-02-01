@@ -2,7 +2,7 @@
 {
     public class Product:BaseEntity
     {
-        public string GTIN { get; set; } 
+        public string GTIN { get; set; } // Global Trade Item Number (14 haneli)
         public Guid CustomerId { get; set; }
 
         public Customer Customer { get; set; }
